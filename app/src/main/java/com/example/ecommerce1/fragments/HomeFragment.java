@@ -2,12 +2,9 @@ package com.example.ecommerce1.fragments;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.icu.number.Scale;
-import android.media.Image;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -15,29 +12,17 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.ecommerce1.R;
-import com.example.ecommerce1.activities.ShowAllActivity;
-import com.example.ecommerce1.adapters.CategoryAdapter;
-import com.example.ecommerce1.adapters.NewProductsAdapter;
-import com.example.ecommerce1.adapters.PopularProductsAdapter;
-import com.example.ecommerce1.adapters.ShowAllAdapter;
-import com.example.ecommerce1.models.CategoryModel;
-import com.example.ecommerce1.models.NewProductsModel;
-import com.example.ecommerce1.models.PopularProductsModel;
-import com.example.ecommerce1.models.ShowAllModel;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.material.slider.Slider;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;

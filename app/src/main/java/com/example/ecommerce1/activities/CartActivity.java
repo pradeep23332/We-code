@@ -19,7 +19,6 @@ import android.widget.TextView;
 import com.example.ecommerce1.R;
 import com.example.ecommerce1.adapters.MyCartAdapter;
 import com.example.ecommerce1.models.MyCartModel;
-import com.example.ecommerce1.models.ShowAllModel;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
